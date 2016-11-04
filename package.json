@@ -1,0 +1,26 @@
+{
+  "name": "pre-commit-check",
+  "version": "1.0.0",
+  "description": "use pre-commit npm to check code",
+  "main": "",
+  "scripts": {
+    "lint": "node check.js"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoqiang730730/pre-commit-check.git"
+  },
+  "author": "https://github/xiaoqiang730730",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoqiang730730/pre-commit-check/issues"
+  },
+  "homepage": "https://github.com/xiaoqiang730730/pre-commit-check#readme",
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "pre-commit": "^1.1.3"
+  }
+}
