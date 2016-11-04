@@ -151,3 +151,5 @@ var extraTab = function(cb) {
 };
 ```
 将extraTab加入taskList任务队列里面就可以了！
+
+最后欢迎大家提供一些团队规范的检测代码！↖(^ω^)↗
